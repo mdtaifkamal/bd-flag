@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	height: 1500px;
+}
+
+.green{
+	width: 700px;
+	height: 350px;
+	background: green;
+	position: relative;
+}
+
+.red{
+	width: 180px;
+	height: 180px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 22%;
+	left: 35%;
+}
+
+.fb{
+	width: 200px;
+	position: fixed;
+	top: 30%;
+	right: -135px;
+	transition: 1s;
+}
+
+.fb:hover{
+	right: -2px;
+}
